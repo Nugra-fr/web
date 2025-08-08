@@ -41,7 +41,7 @@
 }
 
 .logo {
-  width: 177px; 
+  width: 177px;
   height: 177px;
   margin-top: 85px;
 }
@@ -108,7 +108,7 @@
 }
 
 .cim {
-  font-family: 'Roboto-Condensed';
+  font-family: 'Roboto';
   font-size: 38px;
   font-weight: 700;
   width: 242px;
@@ -125,12 +125,14 @@
   margin-top: 15px;
   margin-left: 30px;
 }
+
 .cimtartalom {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 200;
   line-height: 24px;
 }
+
 .nyilak {
   position: absolute;
   left: 50%;
@@ -146,14 +148,17 @@
   gap: 20px;
   margin-bottom: -100px;
 }
+
 .bal-nyil {
   width: 33px;
   height: 33px;
 }
+
 .jobb-nyil {
   width: 33px;
   height: 33px;
 }
+
 .feketeseg {
   display: flex;
   align-items: center;
@@ -162,6 +167,7 @@
   height: 760px;
   background-color: rgba(0, 0, 0, 0.940);
 }
+
 .fo-lista {
   display: flex;
   flex-direction: row;
@@ -172,6 +178,7 @@
   gap: 30%;
   margin-top: 55px;
 }
+
 .elso-lista {
   display: flex;
   flex-direction: column;
@@ -180,6 +187,7 @@
   align-items: flex-start;
   gap: 35px;
 }
+
 .lista-cim {
   display: flex;
   flex-direction: column;
@@ -188,17 +196,20 @@
   font-weight: 700;
   font-family: 'Roboto';
 }
+
 .elso-lista_cim {
   font-family: 'Roboto';
   font-size: 35px;
   font-weight: 700;
 }
+
 .elso-lista_alcim {
   font-family: 'Roboto';
   font-size: 22px;
   font-weight: 700;
   margin-top: 5px;
 }
+
 .elso-lista_szoveg {
   font-family: 'Roboto';
   font-size: 16px;
@@ -217,6 +228,7 @@
   margin-top: 35px;
   gap: 20px;
 }
+
 .masodik-lista {
   display: flex;
   flex-direction: column;
@@ -224,30 +236,154 @@
   justify-content: center;
   gap: 15px;
 }
+
 .harmadik-header {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-
- 
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 642px;
+  background-color: #A62120;
+  overflow: hidden;
 }
+
 .harmadik-header_info {
+  position: relative;
+  left: 140px;
+  bottom: 20px;
   display: flex;
-  width: 600px;
-  height: 100%;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  background-color: #A62120;
+  justify-content: center;
+  width: 100%;
+  height: 642px;
+  margin-left: 280px;
+  font-family: 'Roboto';
+  gap: 45px;
 }
-.guszta-kaja-img {
-    width: 960px;
-    height: 638px;
-    background-position: flex-end;
-    object-fit: cover;
-    overflow: hidden;
-    margin-right: 150px;
-  }
 
+.guszta-kaja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 642px;
+  margin-left: 380px;
+}
+.fekete-lap_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1186px;
+  background-color: rgba(0, 0, 0, 0.940);
+}
+.fekete-lap_cim {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  width: 208px;
+  height: 26px;
 
+}
+.fekete-lap_alcim {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  width: 421px;
+  height: 26px;
+  margin-top: 25px;
+}
+.fekete-lap_szoveg {
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 652px;
+  height: 230px;
+  font-weight: 200;
+  line-height: 24px;
+  margin-top: 65px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.fekete-lap_szoveg span {
+  display: inline-block;
+  margin-top: 20px;
+}
+.vonalas-logo {
+  width: 1100px;
+  height: 85px;
+  margin-top: 80px;
+}
+.fekete-lap_kaja-lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 835px;
+  height: 262px;
+  gap: 20px;
+  margin-top: 40px;
+}
+.piros-gomb3 {
+  width: 174px;
+  height: 47px;
+}
+.fuszeres-lap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 705px;
+  background-color: #A62120;
+  overflow: hidden;
+}
+.fuszerek {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 960px;
+  height: 705px;
+}
+.fuszeres-lap_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+  justify-content: center;
+  width: 100%;
+  height: 344px;
+  margin-right: 400px;
+  margin-left: 125px;
+}
+.fuszeres-info_cim {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+  width: 432px;
+  height: 42px;
+}
+.fuszeres-info_alcim {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  width: 402px;
+  height: 42px;
+  margin-top: 8px;
+}
+.fuszeres-info_szoveg {
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 431px;
+  height: 219px;
+  font-weight: 200;
+  line-height: 24px;
+  margin-top: 35px;
+}
+.fuszeres-info_szoveg span {
+  display: inline-block;
+  margin-top: 10px;
+}
