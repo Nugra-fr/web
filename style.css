@@ -441,7 +441,7 @@
   justify-content: center;
   width: 100%;
   height: 1909px;
-  margin-bottom: 670px;
+
 }
 .black-background_first {
   display: flex;
@@ -492,13 +492,13 @@
   width: 1075px;
   height: 68px;
   margin-top: 210px;
-  margin-bottom: 190px;
+  margin-bottom: 180px;
 }
 .black-background_second_title {
   font-family: 'Roboto';
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .black-background_second_special-offer {
   display: flex;
@@ -599,8 +599,6 @@
   justify-content: center;
   width: 122px;
   height: 177px;
-  align-items: center;
-  justify-content: center;
   text-align: center;
   margin-left: 75px;
 }
@@ -621,4 +619,158 @@
   display: inline-block;
   margin-top: 10px;
   color: rgba(255, 255, 255, 0.51);
+}
+.black-background_third_subtitle {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 5px;
+  height: 21px;
+  width: 107px;
+  margin-top: 38px;
+  color: rgba(255, 255, 255, 0.51);
+}
+.black-background_third_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 5px;
+  height: 85px;
+  width: 468px;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1098px;
+  height: 420px;
+  gap: 15px;
+  margin-top: 30px;
+}
+.left-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 317px;
+  height: 257px;
+  margin-top: 35px;
+  background-color: rgb(31, 31, 31)
+}
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 429px;
+  height: 414px;
+  background-color: rgb(42, 42, 42);
+}
+.right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 317px;
+  height: 257px;
+  margin-top: 35px;
+  background-color: rgb(31, 31, 31);
+}
+.grill-logo {
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+.stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.middle__box-detail {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 200;
+  width: 342px;
+  height: 100px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  line-height: 25px;
+}
+.middle__box-worker {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 101px;
+  height: 19px;
+  margin-left: 128px;
+} 
+.middle__box-rang {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 200;
+  width: 36px;
+  height: 19px;
+  margin-top: 5px;
+  margin-left: 160px;
+}
+.red-vesszok {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 20px;
+  margin-left: 325px;
+}
+.left__box-detail {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 200;
+  width: 249px;
+  height: 73px;
+  margin-bottom: 24px;
+  margin-top: 40px;
+  line-height: 18px;
+}
+.left__box-worker {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  width: 83px;
+  height: 14px;
+  margin-left: 80px;
+  color: rgb(255, 255, 255, 0.5)
+}
+.right__box-detail {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 200;
+  width: 249px;
+  height: 73px;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  line-height: 18px;
+}
+.right__box-worker {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  width: 83px;
+  height: 14px;
+  margin-left: 80px;
+  color: rgb(255, 255, 255, 0.5);
+}
+.red-button2 {
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 50px;
 }
